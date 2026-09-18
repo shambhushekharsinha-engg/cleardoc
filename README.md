@@ -2,7 +2,7 @@
   <br />
   <img src="https://img.shields.io/badge/AWS-Powered-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS Powered" />
   <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React 19" />
-  <img src="https://img.shields.io/badge/Python-3.9-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Python-3.13-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <br />
   <br />
   ClearDoc — AI Legal Guardian
@@ -86,7 +86,7 @@ ClearDoc makes legal document literacy free, instant, and accessible to everyone
 | Service | Purpose |
 |:---|:---|
 | **Amazon API Gateway** | REST API endpoint — routes frontend requests to Lambda |
-| **AWS Lambda (Python 3.9)** | Serverless compute — orchestrates the entire AI pipeline |
+| **AWS Lambda (Python 3.13)** | Serverless compute — orchestrates the entire AI pipeline |
 | **Amazon S3** | Secure document storage via pre-signed upload URLs |
 | **Amazon Textract** | OCR — extracts text from PDF, image, and scanned documents |
 | **Amazon Bedrock (Claude 3 Haiku)** | AI clause analysis, risk scoring, and chat Q&A |

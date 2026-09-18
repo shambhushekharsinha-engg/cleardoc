@@ -48,16 +48,16 @@ jobs:
   # Job 2: Backend Python Unit Tests and Static Code Analysis
   # -------------------------------------------------------------
   backend:
-    name: Backend (Python 3.9, Pytest)
+    name: Backend (Python 3.13, Pytest)
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python 3.9
+      - name: Set up Python 3.13
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: '3.13'
           cache: 'pip'
           cache-dependency-path: cleardoc-api/hello_world/requirements.txt
 
@@ -80,10 +80,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python 3.9
+      - name: Set up Python 3.13
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: '3.13'
 
       - name: Set up AWS SAM CLI
         uses: aws-actions/setup-sam@v2

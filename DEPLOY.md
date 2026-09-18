@@ -8,7 +8,7 @@
 
 ClearDoc is designed as a decoupled, 100% serverless cloud application:
 - **Frontend (`cleardoc-ui/`)**: React 19 + TailwindCSS v4 + Framer Motion (Vite SPA) hosted on **AWS Amplify Hosting**.
-- **Backend API (`cleardoc-api/`)**: AWS SAM stack orchestrating **Amazon API Gateway (REST)**, **AWS Lambda (Python 3.9)**, **Amazon S3** (document vault with AES-256 SSE), **Amazon Textract** (OCR), **Amazon Bedrock** (Anthropic Claude 3 Haiku), and **Amazon DynamoDB** (document & chat session cache).
+- **Backend API (`cleardoc-api/`)**: AWS SAM stack orchestrating **Amazon API Gateway (REST)**, **AWS Lambda (Python 3.13)**, **Amazon S3** (document vault with AES-256 SSE), **Amazon Textract** (OCR), **Amazon Bedrock** (Anthropic Claude 3 Haiku), and **Amazon DynamoDB** (document & chat session cache).
 
 ```
 ┌───────────────────────────────────────────────────────────────────────────┐
@@ -25,7 +25,7 @@ ClearDoc is designed as a decoupled, 100% serverless cloud application:
                ▼                                            │ 4. Read File
 ┌───────────────────────────────────────────────────────────┴───────────────┐
 │                        AWS Lambda Orchestrator                            │
-│                 (Python 3.9 · 256MB RAM · 30s Timeout)                    │
+│                 (Python 3.13 · 256MB RAM · 30s Timeout)                   │
 └──────────────┬────────────────────────────┬───────────────────────────────┘
                │ 5. DetectDocumentText      │ 6. InvokeModel (Claude 3)
                ▼                            ▼
@@ -102,7 +102,7 @@ Deploying ClearDoc to AWS provisions a live, publicly accessible HTTPS applicati
    ```
    *Enter your AWS Access Key ID, Secret Access Key, Default region name (`us-east-1`), and Default output format (`json`).*
 3. **AWS SAM CLI**: Installed ([SAM CLI Install Guide](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/install-sam-cli.html)).
-4. **Python**: Python 3.9+ with `pip`.
+4. **Python**: Python 3.13+ with `pip`.
 
 ---
 
@@ -232,7 +232,7 @@ ClearDoc is engineered specifically to operate well within the **AWS Free Tier**
 |---|---|---|---|
 | **Amazon Bedrock** | Anthropic Claude 3 Haiku (1 prompt + 1 analysis per doc) | Pay-as-you-go (approx $0.00025 input / $0.00125 output per 1K tokens) | **~$0.0008 (~₹0.07)** per 3-page agreement |
 | **Amazon Textract** | `detect_document_text` on uploaded files | **1,000 pages free / month** for first 3 months | $0.0015 per page |
-| **AWS Lambda** | Python 3.9 orchestration (256MB RAM) | **1,000,000 free requests / month** + 3.2M compute sec | $0.0000000042 per 128MB-ms |
+| **AWS Lambda** | Python 3.13 orchestration (256MB RAM) | **1,000,000 free requests / month** + 3.2M compute sec | $0.0000000042 per 128MB-ms |
 | **Amazon API Gateway** | REST API proxy | **1,000,000 free API calls / month** for 12 months | $3.50 per million calls |
 | **Amazon S3** | Encrypted document storage | **5 GB standard storage**, 20,000 GET, 2,000 PUT requests | $0.023 per GB/month |
 | **Amazon DynamoDB** | Document metadata & chat state | **25 GB storage**, 25 WCU, 25 RCU perpetually free | $0.00 (Free Tier permanent) |
