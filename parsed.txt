@@ -1,0 +1,344 @@
+First Commit | Bharat Builds Tour | WeMakeDevs
+×
+Prizes
+Tracks
+Resources
+Judging
+FAQ
+Community
+Sign in
+Check in
+Prizes
+Tracks
+Resources
+Judging
+FAQ
+Community
+Check in
+Event 01
+·
+Bharat Builds Tour
+Starts in
+0 days, 0 hours
+First Commit
+Build something that solves a real problem: one you deal with yourself, one the people around you face every day, or a clunky way of doing things nobody has bothered to fix yet. Think outside the box, in any sector, be that healthcare, education, finance, your pick.
+The hackathon runs online Thursday to Sunday, with an optional hack day in Bangalore on Saturday. Limited seats, and you get workshops, project feedback, time with the Amazon team, and swag.
+Live Now!
+Hybrid week
+/
+Sept 17 – 20, 2026
+Teams of 1 to 4
+Online
+Thu – Sun
+Sept 17 – 20
+Anywhere in India
+In person
+8 AM – 8 PM
+Sept 19
+Polaris School of Technology
+Bangalore, Karnataka
+Registration
+Loading…
+One moment. Pulling up this hackathon.
+Overview
+Schedule
+Judges
+Rules
+01 / Prizes
+Multiple tracks to win!
+Nothing to pick when you enter. Ship It, Build It and Best UI are decided by what your project turns out to be, and one submission is considered for all three.
+Fast-track interview at
+Amazon
+.
+Top 10 students from top projects
+6 months
+Internship, plus full-time roles
+Top 10 students from top projects will skip screening rounds and get fast track interviews at Amazon.
+Read the rules
+Build It
+Second prize
+₹
+1,50,000
+In cash
++ $
+2,000
+In AWS credits, on top
+Build locally with the open-source AWS stack: Strands, Cedar, SAM Local, PartyRock, OpenSearch. No account, no card, no bill.
+Ship It
+First prize
+₹
+2,00,000
+In cash
++ $
+3,000
+In AWS credits, on top
+Deploy it live on AWS and hand us a URL. A new AWS account starts with up to $200 in free credits, you can request more from us if you need them, and the architecture is part of the score.
+Best UI
+Third prize
+₹
+1,00,000
+In cash
++ $
+1,000
+In AWS credits, on top
+Open to a project from either track: the best-designed thing at the event, the one that is a pleasure to use and not only a pleasure to describe.
+Four runners-up
+$
+1,000
+In AWS credits, to each team
+Four more teams take credits home, across every track. There is nothing extra to enter for: every submission is already in the running.
+Top 5 blogs
+Logitech gaming keyboard
+To 5 people
+Write up what you built: the problem, the stack, what fought back. Publish it on AWS Builder Center and link it in your submission.
+Tour swag
+The tour kit
+To the top teams
+Finish near the top of the board and the kit is yours, whether you built online or spent the Saturday with us in Bangalore.
+02 / Tracks
+Here is what you need to build
+The theme is open:
+build something that solves a real problem.
+What we're looking for is something that matters to you. A problem you face yourself, or one you see in your family, your community, or the country. Start there, and build it using AWS, either the open-source tools or the cloud. Just a real problem, and what you build to solve it.
+Two main tracks to build
+What you need
+Build It
+Open source, on your machine
+No AWS account, no card, no bill.
+Ship It
+Deployed, with a URL
+Free tier: up to $200 in credits to start.
+Agents and AI
+Build It
+Strands Agents SDK
+,
+PartyRock
+Ship It
+SageMaker AI
+Containers and Kubernetes
+Build It
+Finch
+,
+EKS Distro
+,
+EKS Anywhere
+Ship It
+EKS
+,
+ECS
+,
+Fargate
+Serverless
+Build It
+SAM CLI
+,
+LocalStack
+Ship It
+Lambda
+,
+API Gateway
+,
+Step Functions
+Servers and runtimes
+Build It
+Firecracker
+,
+Corretto
+Ship It
+EC2
+,
+Lightsail
+,
+App Runner
+,
+Amplify Hosting
+Data and search
+Build It
+OpenSearch
+Ship It
+S3
+,
+DynamoDB
+,
+RDS
+,
+Aurora
+Auth and policy
+Build It
+Cedar
+Ship It
+Cognito
+The plumbing
+Build It
+-
+Ship It
+CloudFront
+,
+Route 53
+,
+EventBridge
+,
+SQS
+,
+SNS
+,
+CloudWatch
+Deploying starts free
+Nothing in the Ship It column needs a paid account. Sign up for the AWS Free Tier and you start with up to $200 in free credits, on top of the services that are always free, which is enough to deploy a project this weekend. Using it is completely valid. If you need more than that, you can request credits from us.
+See what the free tier covers
+03 / Resources
+Everything you need to build
+Verify you're a student, build on the AWS Free Tier, and read up on the tour as it goes. A new AWS account starts with up to $200 in free credits, and you can request more from us.
+01
+Verify you're a student on AWS Builder Center
+One free profile, no credit card, two minutes. Every entry on the tour is checked against it, and verifying your enrollment unlocks $579 of rewards.
+Verify you're a student
+Required to compete, and it unlocks rewards on your profile.
+Hands-on workshops
+Hundreds of step-by-step labs, built by AWS.
+Free sandboxes
+Eight-hour AWS environments, no account needed.
+Your builder profile
+Public, and yours to keep after the weekend.
+02
+Build on AWS, starting with the free tier
+Start with the AWS Free Tier. A new AWS account comes with up to $200 in free credits on top of the services that are always free, which covers the weekend and counts in full for every track. If you need more, request credits from us.
+AWS Free Tier
+A new account starts with up to $200 in credits.
+The free tier, explained
+Builder Center's guide to what it covers, and for how long.
+Getting started with the free tier
+What to know before you open an account.
+Set up your dev environment
+Get your machine ready to build on AWS.
+Toolbox
+AWS SDKs, open-source projects and language resources.
+03
+Blogs from the AWS tour
+Guides, recaps and build notes written around the tour, in one place.
+From the tour
+Read the blogs
+$
+100
+In AWS credits, per team
+Ours, and yours for the asking if the free tier is not enough for what you are building. A new AWS account already comes with up to $200 in free credits, so start there first.
+One form per team, filled by the team leader only, or yourself if you're participating solo.
+Request your credits
+Codes are issued to registered participants. For a new AWS account, debit cards and RuPay are accepted, and the verification charge is about ₹2.
+04 / Judging
+What judges look for
+We are looking for impactful projects that have some real-world use cases. Think about what would make your and others' lives easier.
+01
+Idea and Impact
+The theme is open, so the problem is yours to find.
+Does it solve a real problem? And what changes for the people on the other side of it?
+A small problem solved well beats a big one solved vaguely.
+02
+Built on AWS
+There are two tracks. Build It runs on the open-source stack on your own machine, and Ship It runs on AWS services, which is where the grand prize is decided. Start on the AWS Free Tier, which gives a new account up to $200 in credits, and request more from us if you need them.
+Using an AWS open-source project or AWS services is mandatory to win a prize.
+03
+Learning
+Four days should leave you knowing something you didn't on Thursday: a first deploy, a first agent, a service you had never touched.
+Tell us what you learned, and it counts towards your score.
+04
+The execution
+Does it work? Not perfect, not polished. Working. One feature that runs beats five that almost do.
+05
+The demo video
+Three minutes, recorded, to show what it does, who it is for, and where AWS fits. There is no live demo, so the video is what the judges see.
+We judge what you built, not what you spent. Local projects and deployed projects are scored with the same care. Cloud usage counts only in Ship It, where architecture and cost decisions are part of the work. Best UI is judged on design and usability.
+05 / FAQ
+Got questions?
+What is the theme?
+Build something that solves a real problem, whether it's one you deal with yourself, one people around you face every day, a service that could work better, or just a clunky way of doing things that nobody has bothered to fix yet. Think outside the box and bring creative ideas that solve the country's problems, in any sector, be that healthcare, education, finance, your pick.
+Do I need to know AWS?
+No. Workshops run the week before, and the Build It track needs no AWS account at all.
+How do I build on AWS without paying?
+Start with the AWS Free Tier. A new AWS account comes with up to $200 in free credits, on top of the services that are always free, and that is enough to build and deploy a hackathon project. Using it is completely valid for every track, Ship It included. If you need more than that, you can request credits from us.
+See what the free tier covers
+Where can I read up before the weekend?
+We write about the tour as it goes: guides on the services you'll reach for, recaps of the stops, and build notes from the people who were there. Everything tagged aws on the blog is about this tour.
+Read the blogs
+Do I need a credit card?
+No. Build It needs nothing at all. Ship It needs an AWS account, and the free tier makes that free: debit cards and RuPay work for the signup, and the verification charge is about ₹2.
+Can I participate online?
+Yes, fully. Same theme, same judging, same prizes, and no cap on numbers.
+How do the fast-track interviews at Amazon work?
+The judges put the top projects forward to Amazon's University Talent Acquisition Team, and those students skip the screening round: the project stands in for it. Top 10 students from top projects go forward at each event. The roles are a 6-month internship at Amazon and full-time positions. Winning a track is neither required nor enough, and the full terms are in the tour's rules.
+Read the rules
+Where is the venue?
+Polaris School of Technology in Bangalore, open on Sept 19. Online runs the whole four days from anywhere in India.
+How do I attend in person?
+Two signups. Check in here first, which enters you in the hackathon online, then apply for the Bangalore build day on Luma. Seats are limited and Luma confirms yours by email.
+Apply on Luma
+Why would I join in person?
+On Saturday there is an optional hack day in Bangalore, where you can join the workshops, get feedback on your projects, meet the Amazon team and pick up swag!
+Does joining in person help my chances?
+No. The hackathon runs online from Thursday to Sunday. The Bangalore day is optional and has limited seats, and being there doesn't add to your score.
+Who can participate?
+University students across India.
+How big can a team be?
+One to four people.
+Is it free?
+Yes. Free to register, free to take part.
+Will I get a certificate?
+Yes, everyone who submits a project will get a certificate, and the winning team will also get a certificate.
+Can I start building before the event?
+Learn and practise as much as you want. Project work starts when the clock does.
+06 / Community
+Where to ask, and where to find a team
+Nobody builds this weekend alone. Bring a question, or turn up without a team and leave with one.
+WeMakeDevs Discord
+The fastest way to reach us. Ask anything about the hackathon, find teammates in the team-forming channels, and get help from mentors while you build.
+Join the Discord
+WeMakeDevs space on AWS Builder Center
+Where the tour's updates and announcements are written down and stay findable. Introduce yourself, say what you're building, and see who else is building near you.
+Join the space
+07 / In person
+Spend the Saturday with us in Bangalore
+The hackathon runs online for all four days. Sept 19 is an optional day in the room, with limited seats and a signup of its own.
+Saturday, Sept 19
+Polaris School of Technology
+Bangalore, Karnataka
+Apply on Luma
+Limited seats
+Who you will meet
+Kunal Kushwaha
+Founder, WeMakeDevs
+Hitesh Choudhary
+Founder, Chai aur Code
+Workshops in the room
+Hands-on AWS sessions, run in front of you.
+Feedback on your project
+Show what you have and get it pulled apart in time to fix it.
+Meet the Amazon team
+The people behind the services you are building on.
+Swag to take home
+Tour swag on the day, whether or not you place.
+Two signups: check in for the hackathon on this page, then apply on Luma for the Saturday in Bangalore.
+The day is optional, and being there adds nothing to your score. Everything judged happens online.
+Event 01 of 06
+Make the first commit.
+Four days, one project, and a Builder Center profile that outlasts the weekend. Your tour signup comes with it, and covers all six stops.
+Check in
+Bangalore opens the tour. Online is open to all of India.
+Helping great developer tools reach the builders who will shape the future.
+Keep in touch
+Developers
+Hackathons
+Meetups
+Scholarships
+Event Calendar
+Feedback
+Businesses
+Partners
+Contact Us
+Company
+Blog
+Careers
+Code of Conduct
+Privacy Policy
+Terms of Service
+© 2026 WeMakeDevs. All rights reserved.
+llms.txt
