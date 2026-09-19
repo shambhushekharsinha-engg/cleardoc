@@ -15,8 +15,8 @@ export default function RiskMeter({
         return {
           label: 'Low Risk',
           color: 'text-emerald-700',
-          bgColor: 'bg-emerald-50',
-          borderColor: 'border-emerald-200',
+          bgColor: 'bg-emerald-50 dark:bg-emerald-900/20',
+          borderColor: 'border-emerald-200 dark:border-emerald-800/40',
           barColor: 'bg-emerald-500',
           icon: ShieldCheck,
           description: 'Standard contractual terms with minimal legal or financial traps.',
@@ -24,9 +24,9 @@ export default function RiskMeter({
       case 'high':
         return {
           label: 'High Risk',
-          color: 'text-rose-700',
-          bgColor: 'bg-rose-50',
-          borderColor: 'border-rose-200',
+          color: 'text-rose-700 dark:text-rose-400',
+          bgColor: 'bg-rose-50 dark:bg-rose-900/20',
+          borderColor: 'border-rose-200 dark:border-rose-800/40',
           barColor: 'bg-rose-600',
           icon: ShieldAlert,
           description: 'Contains severe liabilities, asymmetrical termination, or heavy indemnities.',
@@ -35,9 +35,9 @@ export default function RiskMeter({
       default:
         return {
           label: 'Moderate Risk',
-          color: 'text-amber-700',
-          bgColor: 'bg-amber-50',
-          borderColor: 'border-amber-200',
+          color: 'text-amber-700 dark:text-amber-400',
+          bgColor: 'bg-amber-50 dark:bg-amber-900/20',
+          borderColor: 'border-amber-200 dark:border-amber-800/40',
           barColor: 'bg-amber-500',
           icon: AlertTriangle,
           description: 'Mostly standard with a few clauses requiring careful review or negotiation.',
@@ -52,10 +52,10 @@ export default function RiskMeter({
     <div className={`rounded-3xl p-6 border ${config.borderColor} ${config.bgColor} shadow-md transition-all`}>
       <div className="flex items-center justify-between mb-3">
         <div className="flex items-center space-x-2">
-          <div className="p-2 rounded-xl bg-white/80 shadow-xs">
+          <div className="p-2 rounded-xl bg-white/80 dark:bg-slate-800/80 shadow-xs">
             <Icon className={`w-5 h-5 ${config.color}`} />
           </div>
-          <span className="text-sm font-bold uppercase tracking-wider text-slate-700">
+          <span className="text-sm font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300">
             Document Risk Meter
           </span>
         </div>
@@ -66,7 +66,7 @@ export default function RiskMeter({
         >
           <button
             type="button"
-            className="text-slate-400 hover:text-slate-600 focus:outline-none"
+            className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 focus:outline-none"
             aria-label="Risk Meter details"
           >
             <HelpCircle className="w-4 h-4" />
@@ -76,34 +76,34 @@ export default function RiskMeter({
 
       <div className="flex items-baseline justify-between mb-2">
         <h3 className={`text-2xl font-black ${config.color}`}>{config.label}</h3>
-        <span className="text-sm font-extrabold text-slate-700">{riskScore}/100</span>
+        <span className="text-sm font-extrabold text-slate-700 dark:text-slate-300">{riskScore}/100</span>
       </div>
 
       {/* Progress Gauge Bar */}
-      <div className="w-full h-3 bg-white/80 rounded-full overflow-hidden border border-slate-200/50 p-0.5 mb-3">
+      <div className="w-full h-3 bg-white/80 dark:bg-slate-700/80 rounded-full overflow-hidden border border-slate-200/50 dark:border-slate-600/50 p-0.5 mb-3">
         <div
           className={`h-full rounded-full transition-all duration-700 ease-out ${config.barColor}`}
           style={{ width: `${Math.min(100, Math.max(10, riskScore))}%` }}
         />
       </div>
 
-      <p className="text-xs text-slate-600 font-medium leading-relaxed mb-4">
+      <p className="text-xs text-slate-600 dark:text-slate-400 font-medium leading-relaxed mb-4">
         {config.description}
       </p>
 
       {/* Clause Statistics Pills */}
       <div className="grid grid-cols-3 gap-2 text-center text-xs font-semibold">
-        <div className="bg-white/90 rounded-xl p-2 border border-slate-200/50">
-          <div className="text-rose-600 font-black text-sm">{criticalCount}</div>
-          <div className="text-[10px] text-slate-500 uppercase tracking-wider">Critical</div>
+        <div className="bg-white/90 dark:bg-slate-800/90 rounded-xl p-2 border border-slate-200/50 dark:border-slate-700/50">
+          <div className="text-rose-600 dark:text-rose-400 font-black text-sm">{criticalCount}</div>
+          <div className="text-[10px] text-slate-500 dark:text-slate-400 uppercase tracking-wider">Critical</div>
         </div>
-        <div className="bg-white/90 rounded-xl p-2 border border-slate-200/50">
-          <div className="text-amber-600 font-black text-sm">{warningCount}</div>
-          <div className="text-[10px] text-slate-500 uppercase tracking-wider">Cautions</div>
+        <div className="bg-white/90 dark:bg-slate-800/90 rounded-xl p-2 border border-slate-200/50 dark:border-slate-700/50">
+          <div className="text-amber-600 dark:text-amber-400 font-black text-sm">{warningCount}</div>
+          <div className="text-[10px] text-slate-500 dark:text-slate-400 uppercase tracking-wider">Cautions</div>
         </div>
-        <div className="bg-white/90 rounded-xl p-2 border border-slate-200/50">
-          <div className="text-emerald-600 font-black text-sm">{greenCount}</div>
-          <div className="text-[10px] text-slate-500 uppercase tracking-wider">Safe</div>
+        <div className="bg-white/90 dark:bg-slate-800/90 rounded-xl p-2 border border-slate-200/50 dark:border-slate-700/50">
+          <div className="text-emerald-600 dark:text-emerald-400 font-black text-sm">{greenCount}</div>
+          <div className="text-[10px] text-slate-500 dark:text-slate-400 uppercase tracking-wider">Safe</div>
         </div>
       </div>
     </div>
