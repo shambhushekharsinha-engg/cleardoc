@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FileText, Sparkles, ChevronDown } from 'lucide-react';
+import { Sparkles, ChevronDown } from 'lucide-react';
 import Tooltip from './Tooltip';
 
 export default function SampleDocumentLoader({ onLoadSample, disabled = false }) {

@@ -4,7 +4,6 @@ import {
   uploadFileToS3,
   analyzeDocument,
 } from '../services/api';
-import { SAMPLE_ANALYSIS } from '../constants/mockData';
 
 export function useDocumentAnalysis() {
   const [file, setFile] = useState(null);
