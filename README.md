@@ -1,4 +1,5 @@
 <h1 align="center">
+  <img src="Project%20Demo/ClearDoc_Logo.jpg" width="120" alt="ClearDoc Logo" />
   <br />
   <img src="https://img.shields.io/badge/🏆_WeMakeDevs_×_AWS-First_Commit_Hackathon_2026-FF9900?style=for-the-badge" alt="Hackathon" />
   <br /><br />
@@ -18,14 +19,38 @@
 </p>
 
 <p align="center">
-  <a href="https://main.d1dmms845r1lj5.amplifyapp.com/" target="_blank"><strong>🌐 Live Demo</strong></a> •
+  <a href="https://main.d1dmms845r1lj5.amplifyapp.com/" target="_blank"><strong>🌐 Live App</strong></a> •
+  <a href="https://www.youtube.com/watch?v=WLr27chyKO8" target="_blank"><strong>🎬 YouTube Demo</strong></a> •
   <a href="#-the-problem">Problem</a> •
   <a href="#-features">Features</a> •
   <a href="#-aws-architecture">Architecture</a> •
-  <a href="#-quick-start">Quick Start</a> •
-  <a href="#-tests">Tests</a> •
-  <a href="#-judging-criteria-alignment">Judging Criteria</a>
+  <a href="#-quick-start">Quick Start</a>
 </p>
+
+---
+
+## 🎬 Watch the Demo
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=WLr27chyKO8">
+    <img src="Project%20Demo/ClearDoc_YouTube_Thumbnail.jpg" width="800" alt="ClearDoc YouTube Demo Video" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"/>
+  </a>
+</p>
+<p align="center">
+  <strong><a href="https://www.youtube.com/watch?v=WLr27chyKO8">Watch the full 3-minute Hackathon Demo on YouTube ↗</a></strong>
+</p>
+
+---
+
+## 📸 App Showcase
+
+| Dashboard & AI Chat (Dark Mode) | Upload & Guide (Light Mode) |
+|:---:|:---:|
+| <img src="Project%20Demo/ClearDoc_UI_Screenshot_08.png" width="400" style="border-radius:8px;" /> | <img src="Project%20Demo/ClearDoc_UI_Screenshot_01.png" width="400" style="border-radius:8px;" /> |
+| **Risk Flags & Negotiation Advice** | **Green Flags & Explanations** |
+| <img src="Project%20Demo/ClearDoc_UI_Screenshot_10.png" width="400" style="border-radius:8px;" /> | <img src="Project%20Demo/ClearDoc_UI_Screenshot_03.png" width="400" style="border-radius:8px;" /> |
+
+---
 
 <p align="center">
   <img src="https://img.shields.io/badge/Backend%20Tests-55%20passing-brightgreen?style=flat-square&logo=pytest" />

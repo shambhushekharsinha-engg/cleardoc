@@ -42,3 +42,6 @@ htmlcov/
 
 # Agents (internal orchestration)
 .agents/
+
+# Ignore large video files
+Project Demo/*.mp4
