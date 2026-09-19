@@ -17,7 +17,7 @@ describe('App Integration Test Suite', () => {
     // Upload Zone
     expect(screen.getByText(/Don't sign what you/i)).toBeInTheDocument();
     expect(screen.getByText(/Supports PDF, JPG, PNG/i)).toBeInTheDocument();
-    expect(screen.getByText(/Try with a Sample Lease Agreement/i)).toBeInTheDocument();
+    expect(screen.getByText(/Select a Sample Document/i)).toBeInTheDocument();
 
     // Guide modal not open initially
     expect(screen.queryByText(/From dense legalese to plain English clarity/i)).not.toBeInTheDocument();
@@ -51,8 +51,11 @@ describe('App Integration Test Suite', () => {
   it('completes the 1-click sample lease starter flow', async () => {
     render(<App />);
 
-    const sampleBtn = screen.getByRole('button', { name: /Try with a Sample Lease Agreement/i });
+    const sampleBtn = screen.getByRole('button', { name: /Select a Sample Document/i });
     fireEvent.click(sampleBtn);
+    
+    const option = screen.getByText(/Bangalore Residential Lease/i);
+    fireEvent.click(option);
 
     // Should transition to processing status
     await waitFor(() => {

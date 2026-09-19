@@ -20,7 +20,7 @@ describe('FileUploadZone Component', () => {
     expect(screen.getByText(/Drop your document here/i)).toBeInTheDocument();
     expect(screen.getByText(/Supports PDF, JPG, PNG/i)).toBeInTheDocument();
     expect(screen.getByRole('button', { name: /Browse Files/i })).toBeInTheDocument();
-    expect(screen.getByText(/Try with a Sample Lease Agreement/i)).toBeInTheDocument();
+    expect(screen.getByText(/Select a Sample Document/i)).toBeInTheDocument();
   });
 
   it('allows valid PDF file selection via input change and triggers onFileSelect', () => {
@@ -133,9 +133,13 @@ describe('FileUploadZone Component', () => {
     const handleLoadSample = vi.fn();
     render(<FileUploadZone onFileSelect={vi.fn()} onLoadSample={handleLoadSample} />);
 
-    const sampleBtn = screen.getByRole('button', { name: /Try with a Sample Lease Agreement/i });
+    const sampleBtn = screen.getByRole('button', { name: /Select a Sample Document/i });
     fireEvent.click(sampleBtn);
+    
+    const option = screen.getByText(/Bangalore Residential Lease/i);
+    fireEvent.click(option);
 
     expect(handleLoadSample).toHaveBeenCalledTimes(1);
+    expect(handleLoadSample).toHaveBeenCalledWith('sample-bangalore-lease-2026');
   });
 });

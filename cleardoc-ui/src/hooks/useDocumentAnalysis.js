@@ -72,10 +72,13 @@ export function useDocumentAnalysis() {
    * Requirement R3: Skips S3 upload entirely, immediately begins simulated Textract + Bedrock
    * analysis cycling through loading phases with a realistic 3.1s delay (< 4000ms test timeout).
    */
-  const loadSampleDocument = useCallback(async () => {
+  const loadSampleDocument = useCallback(async (sampleId = 'sample-bangalore-lease-2026') => {
+    const { SAMPLE_ANALYSES } = await import('../constants/mockData');
+    const selectedAnalysis = SAMPLE_ANALYSES[sampleId] || SAMPLE_ANALYSES['sample-bangalore-lease-2026'];
+    
     const mockFile = new File(
-      ['Sample Bangalore Residential Lease Content'],
-      'Sample Bangalore Residential Lease (2026).pdf',
+      [`Sample Content for ${selectedAnalysis.documentName}`],
+      selectedAnalysis.documentName,
       { type: 'application/pdf' }
     );
     setFile(mockFile);
@@ -99,8 +102,8 @@ export function useDocumentAnalysis() {
     await new Promise((resolve) => setTimeout(resolve, 1000));
 
     // Total realistic delay: 3100ms (3.1s, satisfies 3-4s requirement and < 4000ms timeout)
-    setDocumentId(SAMPLE_ANALYSIS.documentId);
-    setAnalysis(SAMPLE_ANALYSIS);
+    setDocumentId(selectedAnalysis.documentId);
+    setAnalysis(selectedAnalysis);
     setIsMock(true);
     setStatus('success');
     setCurrentStep(0);
